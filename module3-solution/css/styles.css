@@ -45,3 +45,10 @@ body {
 .row {
 	background: #000000;
 }
+
+.textBox {
+	background: #0000ff;
+	border: 15px  solid black;
+	box-sizing: border-box;
+	height: 1000px;
+}
