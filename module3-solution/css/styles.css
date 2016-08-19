@@ -26,15 +26,15 @@ body {
 
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+  border: 1px solid #fff;
+}
+
 #nav-list {
 	font-size: 1.2em;
 	text-align: center;
 	color: #9b26af;
 	background: #fff;
-}
-
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #000;
 }
 
 #nav-list li:hover {
