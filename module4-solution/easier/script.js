@@ -53,6 +53,16 @@ for (var i = 0; i < names.length; i++) {
   // Look up these methods on Mozilla Developer Network web site if needed.
   var firstLetter = names[i].charAt(0).toLowerCase();
 
+  //outra opção: criar duas variáveis invés de utilizar tudo inline e chamar a segunda variavel quand se compara com o j
+  //exemplo:
+  // var firstLetter = names[i].charAt(0)
+  // var letter = firstLetter.toLowerCase();
+  // if (letter === 'j') {
+  //   byeSpeaker.speak(names[i]);
+  // } else {
+  //   helloSpeaker.speak(names[i]);
+  // }
+
   // STEP 12: (NOTHING TO DO. ALREADY DONE FOR YOU)
   // Compare the 'firstLetter' retrieved in STEP 11 to lower case
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
