@@ -2,6 +2,10 @@ body {
   background-color:#000000
 }
 
+.container {
+    position: relative;
+    width: 100%;
+}
 
 h1 {
   text-align:center;
@@ -13,11 +17,6 @@ h1 {
   font-size: large;
 }
 
-.stevePic{
-  display:block;
-  margin:auto;
-  width:50%;
-}
 .subjectHeader {
   display: block;
   font-size: 1.17em;
@@ -30,7 +29,7 @@ h1 {
   z-index:2;
 }
 
-.captation {
+.caption {
   font-size: 1.17em;
   text-align:center;
   color:#000000;
@@ -75,6 +74,13 @@ table {
 }
 
 @media (min-width: 768px) {
+
+  .stevePic{
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
 .rData {
   border:1px solid black;
   border-radius:8px;
@@ -116,13 +122,14 @@ a {
   color: #A36705;
 }
 
-h2 {
+.footer {
   text-align: right;
   color:white;
   text-shadow: 0 0 10px #fff, 0 0 20px #0f0, 0 0 30px #0f0, 0 0 40px #00ffde, 0 0 70px #00ffde, 0 0 80px #00ff00, 0 0 100px #00ff00, 0 0 150px #00ff00;
 }
 
 @media screen and (max-width: 767px) {
+
         table thead {
           display: none;
         }
@@ -155,7 +162,12 @@ h2 {
           width: 33%;
         }
 
-        .captation {
+        .stevePic{
+          display: block;
+        }
+
+
+        .caption {
           display: block;
           font-size: 1.80em;
           text-align:center;
@@ -189,8 +201,9 @@ h2 {
         }
 
   .rDataRef {
-        min-width: 200px;
-        width: 77%;
+        min-width: 150px;
+        width: 48%;
+        text-align: left;
         border:1px solid black;
         background:-webkit-linear-gradient(top, rgba(110, 110, 110, 0.3) 0%,rgba(110, 110, 110, 0.7) 100%);
   }
